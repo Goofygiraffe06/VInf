@@ -1,9 +1,9 @@
-# VInf Vim Information
+# VInf - *Vi*m *Inf*ormation
 
 VInf is a Vim plugin designed to automatically insert detailed system and compiler information into Vim files. It enhances your development workflow by providing essential environment details directly within your editor.
 Installation
 
-You can run the install.sh in the project repository to install the plugin.
+You can run the `install.sh` in the project repository to install the plugin.
 
 ## Usage
 
