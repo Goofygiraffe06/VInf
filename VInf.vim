@@ -16,8 +16,13 @@ function! Info()
     let compiler_info = get(compilers, extension, ['Unknown compiler', ''])
     let compiler = compiler_info[0]
     let compiler_version = substitute(system(compiler_info[1]), '\n', '', '')
+
     
     let comment_syntax = ';'
+    if extension == 'c' || extension == 'cpp' || extension == 'java'
+        let comment_syntax = '//'
+    endif
+
     let info = comment_syntax . " Compiled on " . os_name . " (" . architecture . ")\n"
     let info .= comment_syntax . " Author: " . author . "\n"
     let info .= comment_syntax . " Kernel: " . kernel_version . "\n"
