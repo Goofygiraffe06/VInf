@@ -12,7 +12,7 @@ Open a file in Vim and use the command `:VInf` to insert system and compiler inf
 
 ## Example Output
 
-After running :VInf in Vim for a file named main.asm, the output would look like this:
+After running `:VInf` in Vim for a file named main.asm, the output would look like this:
 
 ```
 ; Compiled on Linux (x86_64)
